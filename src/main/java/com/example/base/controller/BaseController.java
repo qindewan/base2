@@ -63,6 +63,8 @@ public class BaseController {
 
         lock.lock(10,TimeUnit.SECONDS);
         System.out.println("hello git 1");
+        System.out.println("hello git 2");
+        System.out.println("hello git 3");
         lock.lock();
         try {
             return buy_good();
