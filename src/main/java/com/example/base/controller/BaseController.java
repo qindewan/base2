@@ -66,6 +66,7 @@ public class BaseController {
         System.out.println("hello git 2");
         System.out.println("hello git 3");
         System.out.println("master test2");
+        System.out.println("base2-dev test1");
         lock.lock();
         try {
             return buy_good();
