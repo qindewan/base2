@@ -62,6 +62,7 @@ public class BaseController {
         RLock lock = redisson.getLock(nxLock);
 
         lock.lock(10,TimeUnit.SECONDS);
+        System.out.println("hello git 1");
         lock.lock();
         try {
             return buy_good();
