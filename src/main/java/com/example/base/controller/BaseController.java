@@ -68,6 +68,7 @@ public class BaseController {
         System.out.println("master test2");
         System.out.println("base2-dev test1");
         System.out.println("push ssh");
+        System.out.println("push ssh2");
         lock.lock();
         try {
             return buy_good();
